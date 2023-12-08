@@ -1,0 +1,19 @@
+@import"./node_modules/bootstrap/scss/functions";
+@import"./node_modules/bootstrap/scss/variables";
+@import"./node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+
+$utilities:(
+    "color": (
+        property: color,
+        class: jarifcolor,
+        state: hover,
+        values:(
+            red: red,
+            yellow: yellow,
+            black: black,
+        )
+    )
+);
+
+@import"./node_modules/bootstrap/scss/bootstrap.scss"

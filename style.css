@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sedgwick+Ave+Display&family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "inter" !important;
+}
+
+.nav-link {
+    color: #0D0A19;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    margin-left: 25px;
+}
+
+.Signup {
+    color: #9A9EA7;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+
+.Signup img {
+    background-color: #F5f6f7;
+    border-radius: 10px;
+    width: 32px;
+    height: 32px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.section1 {
+    background-image: url(img/Rectagle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+}
+
+.section1 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "inter";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.305px;
+    padding-top: 120px;
+}
+
+.section1p {
+    color: #FFF;
+    text-align: center;
+    font-family: "inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.TopFooterSection {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 3px 4px 0px rgba(153, 155, 168, 0.15);
+    max-width: 945px;
+    height: 80px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 40px;
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    transform: translateX(-50%);
+}
+
+.TopFooterSection p {
+    font-family: "inter";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-left: 10px;
+}
+
+.form-select {
+    font-family: "inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    border: none !important;
+    margin-top: -15px;
+}
+
+.withoutP {
+    margin-top: 27px;
+}
+
+.change {
+    color: #9A9EA7;
+}
+
+.Header-Button {
+    border-radius: 10px;
+    background: #7963F0;
+    color: white;
+    padding: 7px 15px;
+    font-weight: 700;
+    font-family: "inter";
+    font-size: 14px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+
+.Header-Button img {
+    margin-top: -3px;
+}
+
+.borderright {
+    border-right: 1px solid #ede8e9;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.somemargin {
+    margin-top: 27px;
+}
+
+
+
+/*Media Comment End*/
+
+@media all and (max-width:767px) {
+    .section1 h1 {
+        font-size: 38px;
+    }
+
+    .section1p {
+        font-size: 16px;
+    }
+
+    .TopFooterSection {
+        height: 180px;
+    }
+
+    .Header-Button {
+        width: 95%;
+        padding: 17px 0;
+    }
+
+    .section2 {
+        margin-top: 320px;
+    }
+
+    .section2 img {
+        margin-top: 140px;
+        margin-bottom: -120px;
+    }
+}
+
+/*Media Comment End*/
+
+
+
+
+
+.section2 {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.trending {
+    margin-bottom: 80px;
+}
+
+.section3 h5 {
+    color: #0D0A19;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-right: 120px;
+
+}
+
+.section3 h3 {
+    color: #0D0A19;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    margin-bottom: 50px;
+}
+
+
+.section3 p {
+    color: #9A9EA7;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    margin-top: -20px;
+    margin-right: 115px;
+}
+
+.btn-group {
+    margin-right: 125px;
+}
+
+.section3 p .futa {
+    color: #9A9EA7;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.092px;
+}
+
+.Button1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963F0;
+    color: #7963F0;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Button2 {
+    background-color: #F5f6f7;
+    color: #9A9EA7;
+    border-radius: 8px;
+    text-align: right;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+
+.money {
+    color: #9A9EA7;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.btnsuccess {
+    bottom: 12px;
+    right: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.chaya {
+    border-radius: 14px;
+    border: 1px solid #E4E6E8;
+    width: 360px;
+    height: 235px;
+    transition: 0.5s ease-in-out; 
+    cursor: pointer;
+    transition-delay: 0.5s;
+}
+
+.card1 {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out; 
+    transition-delay: 0s;
+}
+
+.parent {
+    overflow: hidden;
+}
+
+.child {
+    top: 90px;
+    position: relative;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.5s;
+}
+.chaya:hover {
+    height: 420px;
+    transition-delay: 0s; 
+}
+.chaya:hover .card1 {
+    visibility: visible; 
+    opacity: 1;
+    transition-delay: 0.5s;
+}
